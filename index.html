@@ -1,13 +1,77 @@
-<!DOCTYPE html>
-<head>
-   <title>Unknown</title>
-   <style>
-   body {
-      background: url("img/nixie.jpg")  no-repeat center center fixed;
-   }
-   </style>
-</head>
-<body>
-   
-</body>
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Primer</title>
+		<link rel="stylesheet" href="main.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+	</head>
+	<body>
+		<section class="wrapper">
+			<header>
+				<h1>Multimedija - HTML i CSS</h1>
+			</header>
+
+			<div id="main">
+				<header>
+					<nav id="nav-menu">
+						<ul>
+							<li class="active"><a href="#">Početna</a>
+							<li><a href="#">O nama</a>
+							<li><a href="#">Usluge</a>
+							<li><a href="#">Slike</a>
+							<li><a href="#">Kontakt</a>
+						</ul>
+					</nav>
+
+					<nav id="social-handles">
+						<ul>
+							<li><a href="#"><img id="icon" alt="facebook" src="images/icons/facebook.png"></a>
+							<li><a href="#"><img id="icon" alt="linkedin" src="images/icons/linkedin.png"></a>
+							<li><a href="#"><img id="icon" alt="instagram" src="images/icons/instagram.png"></a>
+							<li><a href="#"><img id="icon" alt="twitter" src="images/icons/twitter.png"></a>
+						</ul>
+					</nav>
+				</header>
+
+				<img alt="slika" src="images/slika.jpg" class="banner">
+
+				<div class="elements">
+					<article class="element">
+						<header>
+							<h2>HTML</h2>
+						</header>
+							<p>HTML ili Hyper text Markup Language služi za kreiranje web stranica koje se često sastoje od linkova, slika, tekstova, lista i još mnogo toga. Zajedno sa CSS-om i JavaScriptom omogućava kreiranje jedne funkcionalne web stranice.</p>
+
+						<a href="#">Saznajte više...</a>
+					</article>
+
+					<article class="element">
+						<header>
+							<h2>CSS</h2>
+						</header>
+							<p>CSS ili Cascade Style Sheets koristimo kada želimo da naš HTML dokument ulepšamo i damo mu odredjen izgled od podešavanja boja, margina, ramova, pa sve do manipulisanja slikama, video snimcima i paragrafima.</p>
+						<a href="#">Saznajte više...</a>
+					</article>
+
+					<article class="element">
+						<header>
+							<h2>JS</h2>
+						</header>
+							<p>JavaScript ili skraćeno JS predstavlja glavni izvor funkcionalnosti jedne web stranice. On nam omogućava da kreiramo funkcije koje će izvršavati neku radnju na klik, prilikom učitavanja web stranice, unosa odredjenog teksta itd.</p>
+
+						<a href="#">Saznajte više...</a>
+					</article>
+				</div>
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/RokCkouFFtg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p>Ovaj klip nema nikakve veze sa HTML-om, CSS-om i JavaScript-om ali je dosta interesantan.</p>
+				</div>
+			</div>
+
+			<footer>
+				Copyright &copy; Univerzitet Singidunum 2018.
+			</footer>
+		</section>
+	</body>
 </html>
